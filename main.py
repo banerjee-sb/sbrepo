@@ -23,7 +23,7 @@ def index() -> str:
     datetime_str = date_tdy+' '+'00:00:00'
     datetime_object = datetime.strptime(datetime_str, '%Y-%m-%d %H:%M:%S')
 
-    datetime_str1 = date_tdy+' '+'23:59:59'
+    datetime_str1 = date_tdy+' '+'23:59:00'
     datetime_object1 = datetime.strptime(datetime_str1, '%Y-%m-%d %H:%M:%S')
 
 
